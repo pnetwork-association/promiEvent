@@ -1,0 +1,33 @@
+{
+  "name": "@pnetwork/promievent",
+  "version": "0.1.0",
+  "description": "A TypeScript implementation of a Promise that can also emit events with eventemitter3",
+  "scripts": {
+    "test": "jest",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "@typescript-eslint/eslint-plugin": "^6.9.0",
+    "commitlint": "^17.7.2",
+    "eslint": "^8.51.0",
+    "husky": "^8.0.0",
+    "jest": "^29.7.0",
+    "lint-staged": "^15.0.2",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "eventemitter3": "^5.0.1"
+  },
+  "lint-staged": {
+    "*.[tj]s": "eslint --fix --cache"
+  },
+  "keywords": [
+    "TypeScript",
+    "Promise",
+    "Event",
+    "EventEmitter",
+    "Emit"
+  ]
+}
